@@ -1,0 +1,24 @@
+$prycolr: #ffffff;
+$seccolr: #2f2fa2;
+$tercolr: #f64c72;
+
+@mixin H1fonts {
+  font-family: "Arial, Helvetica, sans-serif";
+
+  font-size: 1.5em;
+  font-weight: 400;
+}
+
+@mixin H2fonts {
+  font-family: "Arial, Helvetica, sans-serif";
+  font-size: 1.5em;
+  font-weight: 400;
+  color: $prycolr !important;
+}
+@mixin pfonts {
+  font-family: " sans-serif";
+
+  font-size: 1.5em;
+  font-weight: 200;
+  color: $prycolr !important;
+}
